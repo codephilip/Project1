@@ -11,7 +11,7 @@ located.
 3. choose a text editor or IDE, download it and access it using command line. 
   You can either manually import your project folder or use the command line. 
     
-    For example, I am using atom IDE. So with my command line is simply navigate into my project1 folder and type the command: atom .
+    For example, I am using atom text editor. So with my command line is simply navigate into my project1 folder and type the command: atom .
  
 You can now play around with the code in your editor in a local environment. 
 
