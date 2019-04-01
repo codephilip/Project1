@@ -32,10 +32,33 @@ in command line navigate to local repository of project.
 
 -> to add changes from all tracked or untracked files. 
 
-3.2 Type: git commit -a
+3.2 Type: git commit -m "Type message here"
 
 -> To commit all new files to the online repository, or git commit index2.html
 
 4. When everything is done, Type: git push
 
 -> To upload to online repository. 
+
+
+
+
+BRANCHES:
+
+The stable version of our code is contained in the Master branch.
+When we want to try out new code we do it in a new 'branch' before merging it with our stable code. 
+
+1.How to create new branch.
+
+in command line, navigate to github project folder and 
+Type: 
+      git branch -a
+-> To see all the branches. The branch with the * next to it is the one you are working in. 
+
+2.  To change the branch from/to which you are pulling/pushing code,
+Type: 
+      git checkout new-branch-name
+
+3. To delete branch Type:
+      git branch -D branch-name
+      
