@@ -62,3 +62,5 @@ Type:
 3. To delete branch Type:
       git branch -D branch-name
       
+4. To push new branch content, Type:
+    git push origin new-branch-name
